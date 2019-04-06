@@ -1,15 +1,12 @@
 package test.java;
 
 import static org.junit.Assert.*;
-import org.bson.Document;
 import org.junit.Test;
-import com.mongodb.MongoClient;
-import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoDatabase;
 import main.java.Dollar;
 
 public class DollarTest {
-    @Testpublic void testDollarDivision() {
+    @Test
+    public void testDollarDivision() {
         // Given
         Dollar ten = new Dollar(10);
         // When
