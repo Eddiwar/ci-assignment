@@ -1,6 +1,6 @@
 language: java
 
-script: "mvn cobertura:cobertura"
+#script: "mvn cobertura:cobertura"
 
-after_success:
-  - bash <(curl -s https://codecov.io/bash) -t f5343b3b-1f21-49da-b2ec-0eed84fd47c3
+#after_success:
+#  - bash <(curl -s https://codecov.io/bash) -t f5343b3b-1f21-49da-b2ec-0eed84fd47c3
